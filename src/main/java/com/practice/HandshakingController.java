@@ -9,7 +9,7 @@ public class HandshakingController {
 	@GetMapping("/hello")
 	public String handShake() {
 
-		return "Hello Docker World!!! This is from Jenkins CICD pipeline.";
+		return "This is from Jenkins CICD pipeline. I'm available at DockerHub, running inside ec2 container and kubernetes [EKS] pod's container";
 	}
 
 }
