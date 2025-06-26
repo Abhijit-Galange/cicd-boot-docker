@@ -9,7 +9,7 @@ public class HandshakingController {
 	@GetMapping("/hello")
 	public String handShake() {
 
-		return "This is Jenkins CICD pipeline project. Technologies used Java 11, Maven, Git, Git Hub, Docker, DockerHub, AWS EC2, EKS";
+		return "This is Jenkins CICD pipeline project. Technologies used are Java 11, Maven, Git, Git Hub, Docker, DockerHub, AWS EC2, EKS";
 	}
 
 }
