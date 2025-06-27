@@ -17,5 +17,11 @@ public class HandshakingController {
 
 		return "Technologies used Java SE 11, Spring Boot, Spring Cloud, Maven, Git, Git Hub, Docker, Docker Hub, Ansible, AWS EC2, EKS";
 	}
+	
+	@GetMapping("/cloud")
+	public String getCloudPlatformName() {
+
+		return "Amazon Web Services (AWS)";
+	}
 
 }
