@@ -15,13 +15,13 @@ public class HandshakingController {
 	@GetMapping("/which")
 	public String getTechnologies() {
 
-		return "Technologies used Java SE 11, Spring Boot, Spring Cloud, Maven, Git, Git Hub, Docker, Docker Hub, Ansible, AWS EC2, EKS";
+		return "Technologies used Java SE 11, Spring Boot, Spring Cloud, Maven, Git, Git Hub, Docker, Docker Hub, Ansible, Kubernetes";
 	}
 	
 	@GetMapping("/cloud")
 	public String getCloudPlatformName() {
 
-		return "Amazon Web Services (AWS)";
+		return "Amazon Web Services (AWS) - EC2, IAM, EKS";
 	}
 
 }
