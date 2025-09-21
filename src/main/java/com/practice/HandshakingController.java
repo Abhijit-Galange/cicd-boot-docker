@@ -9,7 +9,7 @@ public class HandshakingController {
 	@GetMapping("/hello")
 	public String handShake() {
 
-		return "This is CICD pipeline demo project";
+		return "This is CICD pipeline demo project.";
 	}
 	
 	@GetMapping("/tool")
@@ -27,7 +27,7 @@ public class HandshakingController {
 	@GetMapping("/cloud")
 	public String getCloudPlatformName() {
 
-		return "Amazon Web Services (AWS) - EC2, IAM, EKS [Elastic Kubernetes Service]";
+		return "Amazon Web Services (AWS) - EC2, IAM, EKS [Elastic Kubernetes Service].";
 	}
 
 }
