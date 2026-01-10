@@ -15,7 +15,7 @@ public class HandshakingController {
 	@GetMapping("/tool")
 	public String getToolName() {
 
-		return "Jenkins.";
+		return "Jenkins v2.528.3";
 	}
 	
 	@GetMapping("/tech")
