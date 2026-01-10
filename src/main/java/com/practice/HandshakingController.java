@@ -9,7 +9,7 @@ public class HandshakingController {
 	@GetMapping("/hello")
 	public String handShake() {
 
-		return "This is CICD pipeline demo project.";
+		return "This is CICD pipeline demo project using Jenkins.";
 	}
 	
 	@GetMapping("/tool")
